@@ -23,7 +23,7 @@ This project was created to practice core TypeScript concepts including interfac
 Clone this repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/typescript-expense-tracker.git
+git clone https://github.com/JessicaComfortGrant/Typescript_Expense_Tracker.git
 ```
 
 Navigate into the project:
