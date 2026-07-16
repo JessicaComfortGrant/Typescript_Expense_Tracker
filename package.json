@@ -1,0 +1,23 @@
+{
+  "name": "typescript_expense_tracker",
+  "version": "1.0.0",
+  "description": "A simple expense tracking application built with **TypeScript**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessicaComfortGrant/Typescript_Expense_Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessicaComfortGrant/Typescript_Expense_Tracker/issues"
+  },
+  "homepage": "https://github.com/JessicaComfortGrant/Typescript_Expense_Tracker#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
