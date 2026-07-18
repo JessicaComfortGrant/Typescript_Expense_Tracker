@@ -33,19 +33,18 @@ The application demonstrates a structured approach to building maintainable Java
 
 The project follows a TypeScript compilation workflow:
 
+```text
 TypeScript Source Code
-
-↓
-
+          |
+          ↓
 TypeScript Compiler
-
-↓
-
+          |
+          ↓
 JavaScript Output (dist/)
-
-↓
-
+          |
+          ↓
 Node.js Runtime
+```
 
 Source files are written in TypeScript and compiled into JavaScript before execution.
 
@@ -55,15 +54,21 @@ Source files are written in TypeScript and compiled into JavaScript before execu
 
 ### Clone the repository
 
+```bash
 git clone https://github.com/JessicaComfortGrant/Typescript_Expense_Tracker.git
+```
 
 ### Navigate into the project directory
 
+```bash
 cd Typescript_Expense_Tracker
+```
 
 ### Install dependencies
 
+```bash
 npm install
+```
 
 ---
 
@@ -71,18 +76,23 @@ npm install
 
 ### Compile TypeScript
 
+```bash
 npm run build
+```
 
-This compiles TypeScript files from the src directory into JavaScript files inside the dist directory.
+This compiles TypeScript files from the `src` directory into JavaScript files inside the `dist` directory.
 
 ### Start the application
 
+```bash
 npm start
+```
 
 ---
 
 ## Example Output
 
+```text
 Expenses:
 
 [
@@ -105,42 +115,31 @@ Expenses:
 Total Spent:
 
 GH₵ 41
+```
 
 ---
 
 ## Project Structure
 
+```text
 Typescript_Expense_Tracker/
 
 ├── src/
-
 │   ├── index.ts
-
 │   ├── expense.ts
-
 │   └── tracker.ts
-
 │
-
 ├── dist/
-
 │   ├── index.js
-
 │   ├── expense.js
-
 │   └── tracker.js
-
 │
-
 ├── package.json
-
 ├── package-lock.json
-
 ├── tsconfig.json
-
 ├── .gitignore
-
 └── README.md
+```
 
 ---
 
@@ -164,17 +163,18 @@ This project explores and applies:
 
 The project follows a simple development workflow:
 
-1. Write TypeScript source code inside the src directory
+1. Write TypeScript source code inside the `src` directory
 2. Compile TypeScript into JavaScript
 3. Execute the compiled application using Node.js
 
 Commands:
 
+```bash
 npm run build
-
 npm start
+```
 
-The dist directory contains generated JavaScript files and is excluded from version control.
+The `dist` directory contains generated JavaScript files and is excluded from version control.
 
 ---
 
@@ -218,11 +218,12 @@ This project is part of my journey toward becoming a stronger software and data 
 
 ## Author
 
-Jessica Comfort Grant
+**Jessica Comfort Grant**
 
 GitHub:
+
 https://github.com/JessicaComfortGrant
 
 ---
 
-Built as a learning project while exploring TypeScript, Node.js, and modern JavaScript development practices.
+Built as a learning project while exploring **TypeScript, Node.js, and modern JavaScript development practices**.
