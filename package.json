@@ -1,6 +1,7 @@
 {
   "name": "typescript_expense_tracker",
   "version": "1.0.0",
+  "type": "module",
   "description": "A simple expense tracking application built with **TypeScript**.",
   "main": "index.js",
   "scripts": {
